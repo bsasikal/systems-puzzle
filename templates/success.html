@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Records from Table</title>
+</head>
+<body>
+    {% for i in results %}
+    <p>{{  i.id  }}  {{ i.name }}  {{  i.quantity }} {{ i.description }}  {{  i.date_added  }}</p>
+    {% endfor %}
+</body>
+</html>
