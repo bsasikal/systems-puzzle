@@ -1,4 +1,3 @@
-FROM openjdk:10-jdk
 FROM python:3
 
 ENV PYTHONUNBUFFERED 1
